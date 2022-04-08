@@ -1,0 +1,16 @@
+.swiper-pagination .swiper-pagination-bullet {
+  background-color: var(--chakra-colors-highlight);
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  color: var(--chakra-colors-highlight) !important;
+  font-size: 32px !important;
+}
+
+@media (min-width: 48rem) {
+  .swiper-button-next::after,
+  .swiper-button-prev::after {
+    font-size: 40px !important;
+  }
+}
